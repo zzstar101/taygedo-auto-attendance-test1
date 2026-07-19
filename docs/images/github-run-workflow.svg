@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Run workflow guide</title>
+  <desc id="desc">Static diagram showing how to run login and attendance workflows.</desc>
+  <rect width="960" height="520" fill="#f6f7f4"/>
+  <rect x="70" y="64" width="820" height="392" rx="8" fill="#fff" stroke="#d9ded8"/>
+  <text x="110" y="122" fill="#17211b" font-family="Arial, sans-serif" font-size="30" font-weight="700">3. 运行登录与签到 workflow</text>
+  <text x="110" y="164" fill="#647067" font-family="Arial, sans-serif" font-size="18">先运行“塔吉多登录”写入账号，再运行“塔吉多签到”验证。</text>
+  <rect x="120" y="214" width="310" height="138" rx="8" fill="#eef7f4" stroke="#9cc8bd"/>
+  <text x="150" y="257" fill="#0f5b4b" font-family="Arial, sans-serif" font-size="24" font-weight="700">塔吉多登录</text>
+  <text x="150" y="296" fill="#17211b" font-family="Arial, sans-serif" font-size="18">mode=password</text>
+  <text x="150" y="326" fill="#17211b" font-family="Arial, sans-serif" font-size="18">phone=你的手机号</text>
+  <rect x="530" y="214" width="310" height="138" rx="8" fill="#f8faf8" stroke="#d9ded8"/>
+  <text x="560" y="257" fill="#17211b" font-family="Arial, sans-serif" font-size="24" font-weight="700">塔吉多签到</text>
+  <text x="560" y="296" fill="#17211b" font-family="Arial, sans-serif" font-size="18">Run workflow</text>
+  <text x="560" y="326" fill="#17211b" font-family="Arial, sans-serif" font-size="18">force_run=false</text>
+  <path d="M452 283h54" stroke="#16735f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M492 267l18 16-18 16" fill="none" stroke="#16735f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="120" y="384" width="720" height="42" rx="8" fill="#17211b"/>
+  <text x="150" y="411" fill="#fff" font-family="Arial, sans-serif" font-size="18">看到“成功：1，失败：0”后，定时任务会每天自动运行。</text>
+</svg>

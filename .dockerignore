@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+coverage
+.vitest
+.env
+data
+.data
+updated-accounts.json
+task_plan.md
+findings.md
+progress.md
+
